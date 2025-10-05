@@ -51,6 +51,10 @@ pip install numpy matplotlib scikit-image
   - Бинарная маска (1 для текстурных областей, 0 для однородных).
   - Маскированное изображение (только текстурные области остаются видимыми).
 
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6cc55be3-d4aa-40c5-b8ce-ca13bb60eac8" />
+Пример вывода для следующих аргументов функции compute_local_contrast:
+  gray_img, window_size=5, distances=(1,), angles=(0, np.pi/4, np.pi/2, 3*np.pi/4), levels=256
+
 ## Замечания
 
 - Размер скользящего окна (`window_size=21`) и параметры GLCM (расстояния и углы) можно настроить в функции `compute_local_contrast`.

@@ -1,0 +1,17 @@
+GLCM texture analysis report
+============================
+
+Image A: brick
+  contrast: 132.206150
+  energy: 0.102169
+  homogeneity: 0.462677
+
+Image B: camera
+  contrast: 253.388339
+  energy: 0.040297
+  homogeneity: 0.376616
+
+Comparison:
+  contrast: brick (132.2061496618671) < camera (253.38833877272384) | diff = -121.182189
+  energy: brick (0.10216939442647474) > camera (0.040296581883200726) | diff = 0.061873
+  homogeneity: brick (0.4626765575239249) > camera (0.376616034746568) | diff = 0.086061
